@@ -1,0 +1,323 @@
+
+var dataArray = [
+	{
+		"state": "01",
+		"name": "김기0",
+		"wGroup": "",
+		"birthdate": "590526",
+		"date_enter": "2023-01-12",
+		"date_leave": "",
+		"physical_examination": "2023-01-12",
+		"job_training": "2022-11-18",
+		"insure4_info": "abcdd"
+	},
+	{
+		"state": "01",
+		"name": "김소0",
+		"wGroup": "",
+		"birthdate": "640712",
+		"date_enter": "2021-12-29",
+		"date_leave": "",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "김애0",
+		"wGroup": "",
+		"birthdate": "620403",
+		"date_enter": "2022-11-25",
+		"date_leave": "",
+		"physical_examination": "2022-03-10",
+		"job_training": "2022-09-08",
+		"insure4_info": "bcd"
+	},
+	{
+		"state": "01",
+		"name": "김용0",
+		"wGroup": "",
+		"birthdate": "680425",
+		"date_enter": "2022-07-01",
+		"date_leave": "",
+		"physical_examination": "2022-09-06",
+		"job_training": null,
+		"insure4_info": "abcdd"
+	},
+	{
+		"state": "04",
+		"name": "김해0",
+		"wGroup": "",
+		"birthdate": "560906",
+		"date_enter": "2015-05-01",
+		"date_leave": "2012-07-31",
+		"physical_examination": "2022-09-14",
+		"job_training": null,
+		"insure4_info": "cdz"
+	},
+	{
+		"state": "03",
+		"name": "김향0",
+		"wGroup": "",
+		"birthdate": "530505",
+		"date_enter": "2022-07-01",
+		"date_leave": "2022-09-22",
+		"physical_examination": "2022-10-20",
+		"job_training": null,
+		"insure4_info": "abcdz"
+	},
+	{
+		"state": "01",
+		"name": "류시0",
+		"wGroup": "",
+		"birthdate": "861212",
+		"date_enter": "2022-01-01",
+		"date_leave": "",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "03",
+		"name": "박정0",
+		"wGroup": "",
+		"birthdate": "590106",
+		"date_enter": "2011-06-01",
+		"date_leave": "2020-12-31",
+		"physical_examination": "2022-03-22",
+		"job_training": "2020-03-14",
+		"insure4_info": "cd"
+	},
+	{
+		"state": "01",
+		"name": "박종0",
+		"wGroup": "",
+		"birthdate": "551211",
+		"date_enter": "2022-12-30",
+		"date_leave": "",
+		"physical_examination": "2022-07-21",
+		"job_training": "2020-06-13",
+		"insure4_info": "bcd"
+	},
+	{
+		"state": "01",
+		"name": "배영0",
+		"wGroup": "J",
+		"birthdate": "590704",
+		"date_enter": "2022-07-11",
+		"date_leave": "",
+		"physical_examination": "2022-10-25",
+		"job_training": "2022-10-26",
+		"insure4_info": "cd"
+	},
+	{
+		"state": "01",
+		"name": "센터장",
+		"wGroup": "",
+		"birthdate": "680303",
+		"date_enter": "2017-11-01",
+		"date_leave": "",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "cd"
+	},
+	{
+		"state": "03",
+		"name": "신나0",
+		"wGroup": "D",
+		"birthdate": "581001",
+		"date_enter": "2009-04-01",
+		"date_leave": "2022-09-01",
+		"physical_examination": "2020-05-15",
+		"job_training": null,
+		"insure4_info": "bcd"
+	},
+	{
+		"state": "01",
+		"name": "염명0",
+		"wGroup": "",
+		"birthdate": "620407",
+		"date_enter": "2010-12-31",
+		"date_leave": "",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": ""
+	},
+	{
+		"state": "01",
+		"name": "이영0",
+		"wGroup": "",
+		"birthdate": "691223",
+		"date_enter": "2021-06-02",
+		"date_leave": "",
+		"physical_examination": "2022-05-27",
+		"job_training": null,
+		"insure4_info": "abd"
+	},
+	{
+		"state": "03",
+		"name": "이요0",
+		"wGroup": "",
+		"birthdate": "400901",
+		"date_enter": "2008-10-01",
+		"date_leave": "2019-07-11",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": ""
+	},
+	{
+		"state": "01",
+		"name": "이정0",
+		"wGroup": "",
+		"birthdate": "560409",
+		"date_enter": "2016-10-08",
+		"date_leave": "",
+		"physical_examination": "2022-09-21",
+		"job_training": "2020-06-13",
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "정봉0",
+		"wGroup": "",
+		"birthdate": "720926",
+		"date_enter": "2013-01-02",
+		"date_leave": "",
+		"physical_examination": "2022-09-07",
+		"job_training": "2021-04-08",
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "정영0",
+		"wGroup": "",
+		"birthdate": "790320",
+		"date_enter": "2017-07-01",
+		"date_leave": "",
+		"physical_examination": "2022-07-14",
+		"job_training": "2020-06-13",
+		"insure4_info": "bcdx"
+	},
+	{
+		"state": "01",
+		"name": "조양0",
+		"wGroup": "",
+		"birthdate": "470211",
+		"date_enter": "",
+		"date_leave": "",
+		"physical_examination": "2022-09-07",
+		"job_training": "2020-06-13",
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "진미0",
+		"wGroup": "",
+		"birthdate": "640712",
+		"date_enter": "2021-12-31",
+		"date_leave": "",
+		"physical_examination": "2022-02-22",
+		"job_training": null,
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "최명0",
+		"wGroup": "",
+		"birthdate": "621005",
+		"date_enter": "2018-07-24",
+		"date_leave": "",
+		"physical_examination": "2022-03-30",
+		"job_training": null,
+		"insure4_info": "cdx"
+	},
+	{
+		"state": "01",
+		"name": "최월0",
+		"wGroup": "",
+		"birthdate": "700421",
+		"date_enter": "2017-06-08",
+		"date_leave": "",
+		"physical_examination": "2022-08-01",
+		"job_training": null,
+		"insure4_info": "abcdd"
+	},
+	{
+		"state": "03",
+		"name": "최은0",
+		"wGroup": "",
+		"birthdate": "551107",
+		"date_enter": "2014-02-01",
+		"date_leave": "2021-12-29",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "cdx"
+	},
+	{
+		"state": "03",
+		"name": "하수0",
+		"wGroup": "",
+		"birthdate": "610904",
+		"date_enter": "2017-12-01",
+		"date_leave": "2020-07-07",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "허정0",
+		"wGroup": "",
+		"birthdate": "681024",
+		"date_enter": "2021-04-16",
+		"date_leave": "",
+		"physical_examination": "2022-09-14",
+		"job_training": "2020-06-13",
+		"insure4_info": "bcd"
+	},
+	{
+		"state": "01",
+		"name": "현연0",
+		"wGroup": "",
+		"birthdate": "630201",
+		"date_enter": "2017-07-06",
+		"date_leave": "",
+		"physical_examination": "2022-09-14",
+		"job_training": "2020-05-08",
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "01",
+		"name": "홍복0",
+		"wGroup": "",
+		"birthdate": "650407",
+		"date_enter": "2019-12-31",
+		"date_leave": "",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": ""
+	},
+	{
+		"state": "01",
+		"name": "홍월0",
+		"wGroup": "",
+		"birthdate": "551209",
+		"date_enter": "2018-10-01",
+		"date_leave": "",
+		"physical_examination": "2022-07-01",
+		"job_training": "2022-11-18",
+		"insure4_info": "abcd"
+	},
+	{
+		"state": "03",
+		"name": "황춘0",
+		"wGroup": "",
+		"birthdate": "600201",
+		"date_enter": "2016-07-01",
+		"date_leave": "2020-11-02",
+		"physical_examination": null,
+		"job_training": null,
+		"insure4_info": "abcd"
+	}
+];
+
